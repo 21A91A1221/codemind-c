@@ -1,5 +1,5 @@
 #include<stdio.h>
-int main()
+main()
 {
     int n,s=0,p=1,d;
     scanf("%d",&n);
@@ -12,11 +12,11 @@ int main()
     }
     if(s==p)
     {
-        printf("Spy Number");
+    printf("Spy Number");
     }
     else
     {
         printf("Not Spy Number");
     }
-    return 0;
+    
 }
