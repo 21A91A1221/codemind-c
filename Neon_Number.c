@@ -1,5 +1,5 @@
 #include<stdio.h>
-int main()
+main()
 {
     int n,sqr,r,sum=0;
     scanf("%d",&n);
@@ -11,8 +11,11 @@ int main()
         sqr=sqr/10;
     }
     if(sum==n)
-    printf("Neon Number");
+    {
+        printf("Neon Number");
+    }
     else
-    printf("Not Neon Number");
-    return 0;
+    {
+        printf("Not Neon Number");
+    }
 }
