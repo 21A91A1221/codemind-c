@@ -1,25 +1,19 @@
 #include<stdio.h>
+#include<math.h>
 int main()
 {
-    long long int res,n;
-    scanf("%lld",&n);
-    if(n%10==0)
+    long long int a;
+    scanf("%lld",&a);
+    if (a<0)
     {
-        res=n/10;
+        long double b=a/10.0;
+        long long int res=floor(b);
         printf("%lld",res);
     }
     else
     {
-        if(n>0)
-        {
-            res=n/10;
-            printf("%lld",res);
-        }
-        else
-        {
-            res=n/10;
-            res-=1;
-            printf("%lld",res);
-        }
+        long long int res=a/10;
+        printf("%lld",res);
     }
+    return 0;
 }
